@@ -1,0 +1,174 @@
+body {
+	 background: #fffde9 url('../../images/Background-1.png')no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+	 /* overflow-y: hidden; */
+}
+
+.container {
+    width: 100%;
+    height: 100%;
+   
+    overflow-y: hidden;
+    overflow-x: hidden;
+    /* overflow: auto; */
+}
+
+.navbar {
+	background: #d2242e;
+	height: 40px;
+	width: 100%;
+}
+
+.logo {
+	background: url('../../images/logo.png');
+	width: 105px;
+	height:82px;
+	position: relative;
+	left: 21%;
+	margin-top: 30px;
+}
+
+.counter {
+    position: relative;
+
+    right: 3%;
+}
+
+.slots {
+
+}
+
+.counter_slots {
+	float:left;
+	
+	/* text-decoration: none; */
+	list-style-type: none;
+	display: inline;
+	padding: 10px;
+	/* margin-right: 17px; */
+}
+.data {
+	width: 124px;
+	height: 107px;
+	-moz-border-radius: 5px;
+	-webkit-border-radius: 5px;
+	border-radius: 5px; /* border radius */
+	-moz-background-clip: padding;
+	-webkit-background-clip: padding-box;
+	background-clip: padding-box; /* prevents bg color from leaking outside the border */
+	background-color: #d1242d; /* layer fill content */
+	-moz-box-shadow: 5px 7px 5px rgba(8,8,8,.08); /* drop shadow */
+	-webkit-box-shadow: 5px 7px 5px rgba(8,8,8,.08); /* drop shadow */
+	box-shadow: 5px 7px 5px rgba(8,8,8,.08); /* drop shadow */
+	background-image: url(data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiA/Pgo8c3ZnIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgdmlld0JveD0iMCAwIDEyNCAxMDciIHByZXNlcnZlQXNwZWN0UmF0aW89Im5vbmUiPjxsaW5lYXJHcmFkaWVudCBpZD0iaGF0MCIgZ3JhZGllbnRVbml0cz0ib2JqZWN0Qm91bmRpbmdCb3giIHgxPSI1MCUiIHkxPSIxMDAlIiB4Mj0iNTAlIiB5Mj0iLTEuNDIxMDg1NDcxNTIwMmUtMTQlIj4KPHN0b3Agb2Zmc2V0PSIwJSIgc3RvcC1jb2xvcj0iIzA3MDcwNyIgc3RvcC1vcGFjaXR5PSIwLjIxIi8+CjxzdG9wIG9mZnNldD0iMTAwJSIgc3RvcC1jb2xvcj0iI2ZmZiIgc3RvcC1vcGFjaXR5PSIwLjIxIi8+CiAgIDwvbGluZWFyR3JhZGllbnQ+Cgo8cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTI0IiBoZWlnaHQ9IjEwNyIgZmlsbD0idXJsKCNoYXQwKSIgLz4KPC9zdmc+); /* gradient overlay */
+	background-image: -moz-linear-gradient(bottom, rgba(8,8,8,.21) 0%, rgba(255,255,255,.21) 100%); /* gradient overlay */
+	background-image: -o-linear-gradient(bottom, rgba(8,8,8,.21) 0%, rgba(255,255,255,.21) 100%); /* gradient overlay */
+	background-image: -webkit-linear-gradient(bottom, rgba(8,8,8,.21) 0%, rgba(255,255,255,.21) 100%); /* gradient overlay */
+	background-image: linear-gradient(bottom, rgba(8,8,8,.21) 0%, rgba(255,255,255,.21) 100%); /* gradient overlay */
+
+	
+	color: #fff; /* text color */
+	font-family: "HeraldGothic";
+	font-size: 48px;
+	font-weight: bold;
+	text-align: center;
+	text-indent: 10px;
+	margin-top: 32px;
+	line-height: 2.2;
+}
+
+.counter_slots p {
+	color: #d1232d; /* text color */
+	font-family: "TradeGothicLTStd";
+	font-size: 18px;
+	text-indent: 39px;
+	font-weight: 100;
+}
+
+.song_title {
+	color: #d1232d; /* text color */
+	font-family: "";
+	text-indent: 50px;
+	text-align: center;
+}
+
+.song_title p {
+	font-size: 18px;
+	font-family: "roboto";
+	font-weight: 100;
+}
+
+.song_title b {
+	font-size: 34px;
+	font-family: "bebas neue";
+}
+
+.song_title h1 {
+	font-size: 32px;
+	display: inline;
+}
+
+.instagram {
+	width: 604px;
+	clear: both;
+	position: relative;
+	right: 100px;
+	top: 70px;
+	overflow-x: hidden;
+	overflow-y: hidden;
+}
+
+.hashtag {
+    /* float: left; */
+	
+}
+
+.instagram-slider {
+    position: relative;
+	
+    left: 230px;
+    bottom: 73px;
+}
+.instagram-slider li {
+	list-style-type: none;
+	display: inline;
+}
+.instagram-placeholder {
+	width: 82px;
+	height:83px;
+	float: left;
+	clear: right;
+	position: relative;
+	margin-right: 10px;
+}
+
+.instagram-image {
+
+}
+
+
+footer {
+    background: black;
+    /* height: 55px; */
+    width: 100%;
+    position: fixed;
+    bottom: 0px;
+    color: white;
+    padding-top: -20px;
+    border-top: 8px solid #d2242e;
+}
+
+footer .social {
+    position: relative;
+
+    top: -40px;
+}
+footer li {
+	list-style-type: none;
+	display: inline;
+
+
+}
